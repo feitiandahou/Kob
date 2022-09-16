@@ -1,6 +1,6 @@
 <template>
     <ContentField>
-        我的Bot
+        注册
     </ContentField>
 </template>
 

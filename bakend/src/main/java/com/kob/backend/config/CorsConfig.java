@@ -1,4 +1,4 @@
-package com.pk.bakend.config;
+package com.kob.backend.config;
 
 import org.springframework.context.annotation.Configuration;
 

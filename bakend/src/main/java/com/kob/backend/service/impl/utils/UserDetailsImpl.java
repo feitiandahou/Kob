@@ -1,6 +1,6 @@
-package com.pk.bakend.service.impl.utils;
+package com.kob.backend.service.impl.utils;
 
-import com.pk.bakend.pojo.User;
+import com.kob.backend.pojo.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
