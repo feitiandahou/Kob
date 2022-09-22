@@ -51,6 +51,7 @@ public class RegisterServiceImpl implements RegisterService {
         }
         if(!password.equals(confirmedPassword)){
             map.put("error_message","两次输入的密码不一致");
+            return map;
         }
 
         //查询用户名是否重复
