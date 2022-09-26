@@ -56,7 +56,7 @@ export default {
                 username: username.value,
                 password: password.value,
                 success(){
-                    store.dispatch("getinfo",{
+                    store.dispatch("getInfo",{
                         success(){
                             router.push({ name: 'home'});
                             console.log(store.state.user);
