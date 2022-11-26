@@ -43,7 +43,6 @@ public class AddServiceImpl implements AddService {
         }
         if(description == null || description.length() == 0){
             description = "这个用户很懒，什么也没有留下";
-            return map;
         }
         if(description.length() > 300){
             map.put("error_message", "Bot描述的长度不能大于300");

@@ -38,7 +38,7 @@ public class RemoveServiceImpl implements RemoveService {
             return map;
         }
         botMapper.deleteById(bot_id);
-        map.put("error-message","success");
+        map.put("error_message","success");
         return map;
     }
 }
