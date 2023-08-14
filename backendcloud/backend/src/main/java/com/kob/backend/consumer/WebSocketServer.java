@@ -31,7 +31,7 @@ public class WebSocketServer {
     private User user;
     //后端向前端发信息,每个链接用session维护
     private Session session = null;
-    private static UserMapper userMapper;
+    public static UserMapper userMapper;
     public static RecordMapper recordMapper;
     private static BotMapper botMapper;
     public static RestTemplate restTemplate;
